@@ -18,7 +18,7 @@ def main():
         }  )
     # Model wrapper
     model = OpenAIChatCompletionsModel(
-        model="deepseek/deepseek-r1-0528:free",
+        model="deepseek/deepseek-chat-v3-0324:free",
         openai_client=external_client   )
     # Runner config
     config = RunConfig(
